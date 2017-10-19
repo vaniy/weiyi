@@ -1,0 +1,140 @@
+{
+    "navigationId": "nid_1",
+    "tabId": "tid_1",
+    "tabName": "科盈焊接",
+    "categroyId": "cid_1",
+    "categoryName": "手工焊接",
+    "subcategorys": [
+        {
+            "sid": "sid_1",
+            "subcategoryName": "MIG"
+        },
+        {
+            "sid": "sid_2",
+            "subcategoryName": "TIG"
+        },
+        {
+            "sid": "sid_3",
+            "subcategoryName": "STICK(MMA)"
+        },
+        {
+            "sid": "sid_4",
+            "subcategoryName": "多工艺"
+        }
+    ],
+    "priority": 1,
+    "languageCode": "CHN"
+}
+{
+    "navigationId": "nid_1",
+    "tabId": "tid_1",
+    "tabName": "科盈焊接",
+    "categroyId": "cid_1",
+    "categoryName": "MANUAL WELDING",
+    "subcategorys": [
+        {
+            "sid": "sid_1",
+            "subcategoryName": "MIG"
+        },
+        {
+            "sid": "sid_2",
+            "subcategoryName": "TIG"
+        },
+        {
+            "sid": "sid_3",
+            "subcategoryName": "STICK(MMA)"
+        },
+        {
+            "sid": "sid_4",
+            "subcategoryName": "MULTI-PROCESS"
+        }
+    ],
+    "priority": 1,
+    "languageCode": "USA"
+}
+{
+    "navigationId": "nid_2",
+    "tabId": "tid_2",
+    "tabName": "FRONIUS焊接",
+    "categroyId": "cid_2",
+    "categoryName": "自动化焊接系统",
+    "subcategorys": [
+        {
+            "sid": "sid_5",
+            "subcategoryName": "航天航空"
+        },
+        {
+            "sid": "sid_6",
+            "subcategoryName": "汽车制造"
+        },
+        {
+            "sid": "sid_7",
+            "subcategoryName": "轨道交通"
+        },
+        {
+            "sid": "sid_8",
+            "subcategoryName": "新能源"
+        },
+        {
+            "sid": "sid_9",
+            "subcategoryName": "石油管道"
+        },
+        {
+            "sid": "sid_10",
+            "subcategoryName": "工程机械"
+        },
+        {
+            "sid": "sid_11",
+            "subcategoryName": "运动器械"
+        },
+        {
+            "sid": "sid_12",
+            "subcategoryName": "堆焊制造"
+        }
+    ],
+    "priority": 2,
+    "languageCode": "CHN"
+}
+{
+    "navigationId": "nid_2",
+    "tabId": "tid_2",
+    "tabName": "FRONIUS焊接",
+    "categroyId": "cid_2",
+    "categoryName": "AUTOMATED WELDING",
+    "subcategorys": [
+        {
+            "sid": "sid_5",
+            "subcategoryName": "航天航空"
+        },
+        {
+            "sid": "sid_6",
+            "subcategoryName": "汽车制造"
+        },
+        {
+            "sid": "sid_7",
+            "subcategoryName": "轨道交通"
+        },
+        {
+            "sid": "sid_8",
+            "subcategoryName": "新能源"
+        },
+        {
+            "sid": "sid_9",
+            "subcategoryName": "石油管道"
+        },
+        {
+            "sid": "sid_10",
+            "subcategoryName": "工程机械"
+        },
+        {
+            "sid": "sid_11",
+            "subcategoryName": "运动器械"
+        },
+        {
+            "sid": "sid_12",
+            "subcategoryName": "堆焊制造"
+        }
+    ],
+    "priority": 2,
+    "languageCode": "USA"
+}

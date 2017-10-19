@@ -1,0 +1,15 @@
+.image{
+    display: flex;
+    justify-content: center
+}
+.box{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageDetail{
+    height:60%;
+    width:60%;
+    padding-bottom: 20px
+}

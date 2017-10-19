@@ -1,0 +1,90 @@
+{
+    "subcategoryId": "sid_1",
+    "headTitle": "Manual welding",
+    "headDescription": "Powerful and intelligent welding equipment",
+    "subcategoryName": "MIG",
+    "subcategroyTitle": "浏览手工焊接设备en",
+    "subcategoryDescriptionTop": "如果您寻找一种适用于重工业的轻便紧凑型机器或模块化焊接设备，那么您一定可以从我们的手工焊接产品中找到适合您工作任务的设备。en",
+    "subcategoryDescriptionBottom": "Kemppi MIG/MAG设备专为追求高品质的焊工而打造，其内部采用卓越的技术，外观上简单直观，具备出色的可控性和性能。en",
+    "subcategoryProductTitle": "K7 - 集专业和智能于一体",
+    "tab": {
+        "tabId": "tid_1",
+        "tabName": "科盈焊接"
+    },
+    "category": {
+        "categoryId": "cid_1",
+        "categoryName": "手工焊接"
+    },
+    "products": [
+        {
+            "productId": "pid_1",
+            "productImage": "/img/FastMig-X-Intelligent_w.png",
+            "prodcutTitle": "FastMig X Intelligent ",
+            "productDescription": "高水准多工艺解决方案，适合要求严格的多样化焊接应用。"
+        },
+        {
+            "productId": "pid_2",
+            "productImage": "/img/FastMig-X-Intelligent_w.png",
+            "prodcutTitle": "FastMig X Intelligent ",
+            "productDescription": "高水准多工艺解决方案，适合要求严格的多样化焊接应用。"
+        },
+        {
+            "productId": "pid_3",
+            "productImage": "/img/FastMig-X-Intelligent_w.png",
+            "prodcutTitle": "FastMig X Intelligent ",
+            "productDescription": "高水准多工艺解决方案，适合要求严格的多样化焊接应用。"
+        },
+        {
+            "productId": "pid_4",
+            "productImage": "/img/FastMig-X-Intelligent_w.png",
+            "prodcutTitle": "FastMig X Intelligent ",
+            "productDescription": "高水准多工艺解决方案，适合要求严格的多样化焊接应用。"
+        }
+    ],
+    "languageCode": "USA"
+}
+{
+    "subcategoryId": "sid_1",
+    "headTitle": "手工焊接",
+    "headDescription": "功能强大的智能焊接设备",
+    "subcategoryName": "MIG",
+    "subcategroyTitle": "浏览手工焊接设备",
+    "subcategoryDescriptionTop": "如果您寻找一种适用于重工业的轻便紧凑型机器或模块化焊接设备，那么您一定可以从我们的手工焊接产品中找到适合您工作任务的设备。",
+    "subcategoryDescriptionBottom": "Kemppi MIG/MAG设备专为追求高品质的焊工而打造，其内部采用卓越的技术，外观上简单直观，具备出色的可控性和性能。",
+    "subcategoryProductTitle": "K7 - 集专业和智能于一体",
+    "tab": {
+        "tabId": "tid_1",
+        "tabName": "科盈焊接"
+    },
+    "category": {
+        "categoryId": "cid_1",
+        "categoryName": "手工焊接"
+    },
+    "products": [
+        {
+            "productId": "pid_1",
+            "productImage": "/img/FastMig-X-Intelligent_w.png",
+            "prodcutTitle": "FastMig X Intelligent ",
+            "productDescription": "高水准多工艺解决方案，适合要求严格的多样化焊接应用。"
+        },
+        {
+            "productId": "pid_2",
+            "productImage": "/img/FastMig-X-Intelligent_w.png",
+            "prodcutTitle": "FastMig X Intelligent ",
+            "productDescription": "高水准多工艺解决方案，适合要求严格的多样化焊接应用。"
+        },
+        {
+            "productId": "pid_3",
+            "productImage": "/img/FastMig-X-Intelligent_w.png",
+            "prodcutTitle": "FastMig X Intelligent ",
+            "productDescription": "高水准多工艺解决方案，适合要求严格的多样化焊接应用。"
+        },
+        {
+            "productId": "pid_4",
+            "productImage": "/img/FastMig-X-Intelligent_w.png",
+            "prodcutTitle": "FastMig X Intelligent ",
+            "productDescription": "高水准多工艺解决方案，适合要求严格的多样化焊接应用。"
+        }
+    ],
+    "languageCode": "CHN"
+}
