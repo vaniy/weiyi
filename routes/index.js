@@ -14,6 +14,15 @@ router.get("/", function (req, res, next) {
 	res.render("index", { language: translate, route: '' });
 });
 
+router.get("/server", function (req, res, next) {
+	let translate = {
+		home: language.cn.home,
+		common: language.cn.common
+	}
+	// dbHandler.getAllNews(req, res, 'CHN', translate);
+	res.render("server", { language: translate, route: '' });
+});
+
 router.get("/zh-CN", function (req, res, next) {
 	let translate = {
 		home: language.cn.home,
