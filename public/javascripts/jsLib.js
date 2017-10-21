@@ -1,10 +1,5 @@
-﻿//MammothcodeCoreJsLib
-//Version 0.2.7.4
-//Date 2016年4月5日01:19:08
-//Edit Zero
-
-//======= namespacep START=======//
-var Mc = {}; //曼码JsLib
+﻿//======= namespacep START=======//
+var Mc = {}; //jsLib
 Mc.App = {}; //移动端类
 Mc.App.Pop = {}; //弹出层(移动端)
 Mc.Pc = {}; //Pc端类
@@ -22,8 +17,6 @@ Mc.Pop = {}; //弹出层
 /**
  * ajax 数据请求
  * version 1.3
- * Update 2016年4月5日01:06:43
- * Author Zero
  */
 Mc.Global.mc_isAjax = [];
 Mc.Config = {};

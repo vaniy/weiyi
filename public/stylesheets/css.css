@@ -1,7 +1,5 @@
 *{margin:0;padding:0;}
-body{font-family:"苹方","微软雅黑","Times New Roman",Georgia,Serif;font-size:14px;color:#666;
-	
-}
+body{font-family:"苹方","微软雅黑","Times New Roman",Georgia,Serif;font-size:14px;color:#666;}
 ul,li{list-style:none;}
 a{text-decoration:none;color:#666;}
 .blank{font-size:0;clear:both;}
@@ -50,7 +48,7 @@ a{text-decoration:none;color:#666;}
 .detail>img{width: 100%;display: block;}
 
 .w{
-	/* width:1200px; */
+	max-width:1200px;
 	margin:0 auto;
 	overflow:hidden;}
 .index-part{height:520px;background:url(../images/index-banner.jpg) no-repeat center top;min-width:1200px;width:100%;}
@@ -151,7 +149,10 @@ a{text-decoration:none;color:#666;}
 .com-intro{font-size:24px;color:#000;text-align:center;margin:40px 0;}
 
 .case-part{background-image:url(../images/case-banner.png);}
-.case-bg{height:79px;min-width:1200px;width:100%;position:relative;border-bottom:solid 1px #efefef;}
+.case-bg{
+	height:79px;
+	/* min-width:1200px; */
+	width:100%;position:relative;border-bottom:solid 1px #efefef;margin-top: 79px;}
 .case-hd{height:77px;display: flex;}
 .case-hd li{font-size:14px;line-height:77px;
 	text-align:center;cursor:pointer;padding: 0 50px;
@@ -159,7 +160,9 @@ a{text-decoration:none;color:#666;}
 .case-hd li.active{background:#fa6962;color:#fff;}
 
 .case-bd{clear:both;margin-top:10px;padding:0 2px;}
-.case-bd ul{width:1400px;display:none;}
+.case-bd ul{
+	min-width:1400px;
+	display:none;}
 .case-bd li{position: relative;width:284px;float:left;height:350px;
 	overflow:hidden;margin-right:19px;background-color:#fff;
 	box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);top:0px;margin-top: 20px;
@@ -174,7 +177,7 @@ a{text-decoration:none;color:#666;}
 .sub-bd ul{display:block;}
 
 .case-more{height:75px;font-size:24px;text-align:center;line-height:75px;color:#666;background-color:#efefef;border-radius:5px;}
-.case-more .icon-jt{background:url(../images/jt-icon.png) no-repeat center 5px;width:15px;height:22px;display:inline-block;margin-left:10px;background-size:90%;}
+.case-more .icon-jt{background:url(/img/jt-icon.png) no-repeat center 5px;width:15px;height:22px;display:inline-block;margin-left:10px;background-size:90%;}
 .small-icon{width:20px;height:22px;display:inline-block;font-size:11px;color:#fff;line-height:20px;margin-right:10px;background-size:90%;text-align:center;position:relative;top:-3px;}
 .iocn-r{background:url(../images/small-r.png) no-repeat;}
 .iocn-g{background:url(../images/small-g.png) no-repeat;}
