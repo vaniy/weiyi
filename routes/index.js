@@ -32,6 +32,24 @@ router.get("/case", function (req, res, next) {
 	res.render("case", { language: translate, route: '' });
 });
 
+router.get("/price", function (req, res, next) {
+	let translate = {
+		home: language.cn.home,
+		common: language.cn.common
+	}
+	// dbHandler.getAllNews(req, res, 'CHN', translate);
+	res.render("price", { language: translate, route: '' });
+});
+
+router.get("/join", function (req, res, next) {
+	let translate = {
+		home: language.cn.home,
+		common: language.cn.common
+	}
+	// dbHandler.getAllNews(req, res, 'CHN', translate);
+	res.render("join", { language: translate, route: '' });
+});
+
 router.get("/zh-CN", function (req, res, next) {
 	let translate = {
 		home: language.cn.home,
