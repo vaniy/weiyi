@@ -1,0 +1,103 @@
+.solution_text_img{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: center;
+	padding: 80px 0;
+    min-width: 320px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+.solu-bg{
+	background-color: #eff7fe;;
+}
+.mod-inner {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto
+}
+.solu_text_info{
+	width: 500px;
+}
+.solu_title{
+	font-size: 24px;
+	padding: 10px 0;
+	color: #303233;
+	letter-spacing: 1px;
+}
+.solu_text{
+	font-size: 18px;
+	line-height: 28px;
+	padding-bottom: 10px;
+	padding-right: 100px;
+	color: #6b6c6d;
+}
+.solu_text_right{
+	padding-right: 0;
+	padding-left: 100px;
+}
+.solu_btn{
+	width: 100px;
+	color: #3154c8;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 20px;
+	padding: 5px 10px;
+	border: 1px solid #3154c8;
+	border-radius: 4px;
+}
+.solu_btn_right{
+	float: right;
+}
+.solution_power{
+	box-sizing: border-box;
+	width: 700px;
+	padding-left: 90px;
+}
+.power_left{
+	padding-left: 0px;
+}
+.power_info{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.text_right{
+	text-align: right;
+}
+.power_flex{
+	width: 150px;
+	/*border:1px solid blue;*/
+}
+.power_title{
+	padding: 10px 50px ;
+	font-size: 20px;
+	color: #6b6c6d;
+}
+.power_img{
+	box-sizing: border-box;
+	width: 70px;
+	height: 70px;
+	line-height: 110px;
+	text-align: center;
+	border-radius: 50%;
+	border: 2px solid #f3f3f3;
+	margin: 0 auto;
+	background-color: white;
+}
+.power_img img{
+	border-radius: 50%;
+}
+.power_name{
+	text-align: center;
+	line-height: 35px;
+	color: #3f4040;
+	letter-spacing: 1px;
+}
+
+
+
