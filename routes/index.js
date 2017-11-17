@@ -23,6 +23,42 @@ router.get("/server", function (req, res, next) {
 	res.render("server", { language: translate, route: '' });
 });
 
+router.get("/operate", function (req, res, next) {
+	let translate = {
+		home: language.cn.home,
+		common: language.cn.common
+	}
+	// dbHandler.getAllNews(req, res, 'CHN', translate);
+	res.render("operate", { language: translate, route: '' });
+});
+
+router.get("/website", function (req, res, next) {
+	let translate = {
+		home: language.cn.home,
+		common: language.cn.common
+	}
+	// dbHandler.getAllNews(req, res, 'CHN', translate);
+	res.render("website", { language: translate, route: '' });
+});
+
+router.get("/publicsign", function (req, res, next) {
+	let translate = {
+		home: language.cn.home,
+		common: language.cn.common
+	}
+	// dbHandler.getAllNews(req, res, 'CHN', translate);
+	res.render("publicsign", { language: translate, route: '' });
+});
+
+router.get("/smallprogram", function (req, res, next) {
+	let translate = {
+		home: language.cn.home,
+		common: language.cn.common
+	}
+	// dbHandler.getAllNews(req, res, 'CHN', translate);
+	res.render("smallprogram", { language: translate, route: '' });
+});
+
 router.get("/case", function (req, res, next) {
 	let translate = {
 		home: language.cn.home,

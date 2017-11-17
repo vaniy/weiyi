@@ -1,0 +1,572 @@
+﻿*{margin:0;padding:0;font-family:'微软雅黑';}
+a{text-decoration:none;}
+li{list-style:none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.banner{
+	width:100%;
+	height:695px;
+	margin-top:72px;
+	background:url(/img/banner.jpg) center top no-repeat;
+}
+.banner .con{
+	width:1200px;
+	height:695px;
+	margin:0 auto;
+	position:relative;
+}
+html{
+	background:url(/img/line.png) center 1250px no-repeat;
+}
+/*微信营销五大难题*/
+.question{
+	width:1200px;
+	height:700px;
+	margin:0 auto;
+	position:relative;
+}
+.question .title{
+	padding-left:30px;
+	position:absolute;
+	top:-60px;
+}
+.question .title .top{
+	font-size:44px;
+	font-weight:bold;
+	letter-spacing:5px;
+	color:#2e2e2e;
+}
+.question .title .bot{
+	font-size:24px;
+	font-weight:bold;
+	letter-spacing:8px;
+	color:#0ec599;
+}
+.question .con{
+	width:895px;
+	height:530px;
+	background:url(/img/question_bg.jpg) center center no-repeat;
+	margin:0 auto;
+	padding-top:150px;
+	position:relative;
+}
+.question .con .item1{
+	width:235px;
+	height:70px;
+	text-align:right;
+	top:190px;
+	left:-15px;
+	position:absolute;
+}
+.question .con .item1 p.name{
+	color:#fa8d30;
+	font-weight:bold;
+	font-size:24px;
+	padding-right:55px;
+	background:url(/img/q1.jpg) right center no-repeat;
+}
+.question .con .item1 p.desc{
+	font-size:16px;
+	padding-top:2px;
+	font-weight:bold;
+	color:#393939;
+	letter-spacing:2px;
+}
+
+/*item2*/
+.question .con .item2{
+	width:235px;
+	height:70px;
+	text-align:right;
+	top:420px;
+	left:-10px;
+	position:absolute;
+}
+.question .con .item2 p.name{
+	color:#ffd300;
+	font-weight:bold;
+	font-size:24px;
+	padding-right:40px;
+	background:url(/img/q2.jpg) right center no-repeat;
+}
+.question .con .item2 p.desc{
+	font-size:16px;
+	padding-top:2px;
+	font-weight:bold;
+	color:#393939;
+	letter-spacing:2px;
+}
+
+/*item3*/
+.question .con .item3{
+	width:235px;
+	height:70px;
+	top:570px;
+	left:520px;
+	position:absolute;
+}
+.question .con .item3 p.name{
+	color:#199efd;
+	font-weight:bold;
+	font-size:24px;
+	padding-left:50px;
+	background:url(/img/q3.jpg) left center no-repeat;
+}
+.question .con .item3 p.desc{
+	font-size:16px;
+	padding-top:2px;
+	font-weight:bold;
+	color:#393939;
+	letter-spacing:2px;
+}
+
+/*item4*/
+.question .con .item4{
+	width:235px;
+	height:70px;
+	top:330px;
+	left:690px;
+	position:absolute;
+}
+.question .con .item4 p.name{
+	color:#f1c100;
+	font-weight:bold;
+	font-size:24px;
+	padding-left:50px;
+	background:url(/img/q5.jpg) left center no-repeat;
+}
+.question .con .item4 p.desc{
+	font-size:16px;
+	padding-top:2px;
+	font-weight:bold;
+	color:#393939;
+	letter-spacing:2px;
+}
+
+/*item5*/
+.question .con .item5{
+	width:235px;
+	height:70px;
+	top:150px;
+	left:630px;
+	position:absolute;
+}
+.question .con .item5 p.name{
+	color:#05c3b9;
+	font-weight:bold;
+	font-size:24px;
+	padding-left:50px;
+	background:url(/img/q4.jpg) left center no-repeat;
+}
+.question .con .item5 p.desc{
+	font-size:16px;
+	padding-top:2px;
+	font-weight:bold;
+	color:#393939;
+	letter-spacing:2px;
+}
+
+
+/*advan*/
+.advan{
+	width:100%;
+	/* height:425px; */
+	margin:-100px auto 0;
+	padding-top:180px;
+	padding-bottom:50px;
+	background:url(/img/advantage_bg.jpg) no-repeat center top;
+}
+.advan .title{
+	width:1200px;
+	margin:0 auto;
+	padding-left:30px;
+}
+.advan .title .top{
+	font-size:44px;
+	font-weight:bold;
+	letter-spacing:5px;
+	color:#fff;
+}
+.advan .title .bot{
+	font-size:24px;
+	font-weight:bold;
+	letter-spacing:8px;
+	color:#fff;
+}
+.advan .con{
+	width:1200px;
+	height:270px;
+	margin:50px auto 0;
+}
+.advan .con ul{
+	width:1230px;
+}
+.advan .con ul li{
+	width:220px;
+	height:270px;
+	padding-top:12px;
+	float:left;
+	background:#f2f2f2;
+	margin-right:25px;
+	box-shadow:0 0 5px #999;
+}
+.advan .con ul li .item{
+	width:196px;
+	height:254px;
+	margin:0 auto;
+	border:1px solid #6cd638;
+}
+.advan .con ul li .item img{
+	display:block;
+	margin:0 auto;
+	padding-top:34px;
+}
+.advan .con ul li .item .line{
+	width:123px;
+	height:2px;
+	background:#c9c9c9;
+	margin:20px auto 0;
+}
+.advan .con ul li .item p.name{
+	text-align:center;
+	color:#303030;
+	font-size:22px;
+	margin-top:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+.advan .con ul li .item p.desc{
+	width:150px;
+	font-size:14px;
+	line-height:20px;
+	text-align:justify;
+	margin:10px auto 0;
+}
+.advan .con ul li .item2{
+	border:1px solid #fd9426;
+}
+.advan .con ul li .item3{
+	border:1px solid #c477e1;
+}
+.advan .con ul li .item4{
+	border:1px solid #009fe9;
+}
+.advan .con ul li .item5{
+	border:1px solid #fb524f;
+}
+
+/*vs*/
+.vs{
+	width:100%;
+	height:554px;
+	background:url(/img/vsbg.jpg) center top no-repeat;
+}
+.vs p.title{
+	text-align:center;
+	font-size:44px;
+	color:#2e2e2e;
+	font-weight:bold;
+	letter-spacing:5px;
+	padding-top:60px;
+}
+.vs .con{
+	width:1200px;
+	height:284px;
+	margin:0 auto;
+	margin-top:60px;
+	position:relative;
+}
+.vs .con .icon{
+	position:absolute;
+	left:562px;
+	top:115px;
+
+}
+.vs .con ul{
+	width:1230px;
+}
+.vs .con ul li{
+	width:581px;
+	height:250px;
+	float:left;
+	margin-right:30px;
+}
+.vs .con ul li.left{
+	border:2px solid #eeeeee;
+	padding-top:30px;
+}
+.vs .con ul li.left .name{
+	font-size:28px;
+	color:#6d6b6c;
+	font-weight:bold;
+	letter-spacing:3px;
+	line-height:53px;
+	padding-left:90px;
+	margin-left:145px;
+	background:url(/img/person.png) left center no-repeat;
+}
+.vs .con ul li.left .desc{
+	font-size:16px;
+	color:#6c6c6c;
+	line-height:32px;
+	padding-left:35px;
+	/* margin-top:20px; */
+	letter-spacing:2px;
+}
+.vs .con ul li.right{
+	border:2px solid #b28850;
+	padding-top:30px;
+}
+.vs .con ul li.right .name{
+	font-size:28px;
+	color:#b28850;
+	font-weight:bold;
+	letter-spacing:3px;
+	line-height:53px;
+	padding-left:90px;
+	margin-left:145px;
+	background:url(/img/company.png) left center no-repeat;
+}
+.vs .con ul li.right .desc{
+	font-size:16px;
+	color:#6c6c6c;
+	/* line-height:32px; */
+	padding-left:35px;
+	/* margin-top:20px; */
+	letter-spacing:2px;
+}
+.vs .con ul li.right .desc span{
+	padding:0 5px;
+	margin-right:5px;
+	background:#fe524e;
+	color:#fff;
+}
+
+/*套餐*/
+.taocan .title{
+	text-align:center;
+	font-size:38px;
+	color:#2e2e2e;
+	font-weight:bold;
+	letter-spacing:5px;
+	margin-top:40px;
+	background:url(/img/tcbg.png) center center no-repeat;
+}
+.taocan .con{
+	width:1200px;
+	height:1100px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.taocan .con ul{
+	width:1221px;
+}
+.taocan .con ul li{
+	float:left;
+	width:386px;
+	height:1082px;
+	padding-top:18px;
+	margin-right:21px;
+	box-shadow:0 0 5px 3px #ddd;
+}
+.taocan .con ul li.item1{
+	background:#fff;
+}
+.taocan .con ul li.item1 .info{
+	width:350px;
+	height:1064px;
+	border:1px solid #b28850;
+	margin:0 auto;
+}
+.taocan .con ul li.item2{
+	background:#fff;
+}
+.taocan .con ul li.item3{
+	background:#fff;
+}
+.taocan .con ul li .name{
+	text-align:center;
+	padding-top:25px;
+	color:#2a2829;
+	font-size:26px;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+.taocan .con ul li .line{
+	width:230px;
+	height:1px;
+	background:rgba(255,255,255,0.6);
+	margin:18px auto 25px;
+}
+.taocan .con ul li p{
+	margin-left:43px;
+	padding-left:30px;
+	font-size:16px;
+	color:#272928;
+	line-height:34px;
+	background:url(/img/select.png) left center no-repeat;
+}
+
+/*单项目*/
+.single{
+	width:1200px;
+	height:372px;
+	margin:0 auto;
+	margin-top:30px;
+	border:2px solid #b28850;
+	background:#eee;
+}
+.single .name{
+	text-align:center;
+	font-size:22px;
+	height:42px;
+	line-height:42px;
+	letter-spacing:2px;
+	border-bottom:1px solid #b28850;
+}
+.single .con{
+	width:1200px;
+	height:330px;
+}
+.single .con .left{
+	width:1178px;
+	height:330px;
+	float:left;
+	border-right:1px solid #b28850;
+	position:relative;
+	overflow:hidden;
+}
+.single .con .left .content{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+}
+.single .con .left .content p{
+	font-size:16px;
+	color:#2e2e2e;
+	line-height:32px;
+	padding-left:15px;
+}
+.single .con .left .content p span{
+	font-weight:bold;
+
+}
+.single .con .right{
+	width:20px;
+	height:330px;
+	background:#eee;
+	float:right;
+	position:relative;
+}
+.single .con .right .btn{
+	width:18px;
+	height:80px;
+	border-radius:15px;
+	position:absolute;
+	left:1px;
+	top:0px;
+	background:#b28850;
+	box-shadow:0px 1px 1px #333;
+}
+
+/*案例展示*/
+.case .title{
+	text-align:center;
+	font-size:38px;
+	color:#2e2e2e;
+	font-weight:bold;
+	letter-spacing:5px;
+	margin-top:40px;
+	background:url(/img/tcbg.png) center center no-repeat;
+}
+.case .con img{
+	width:839px;
+	height:462px;
+	display:block;
+	margin:0 auto;
+	margin-top:50px;
+	position:relative;
+	/* z-index:1000; */
+}
+
+.footer{
+	width:100%;
+	height:599px;
+	margin-top:-70px;
+	background:url(/img/footer.jpg) center top no-repeat;
+}
+  .footer .connect{
+	margin: 0 auto 0;
+    color: #fff;
+    font-size:30px;
+	text-align:center;
+    line-height: 110px;
+	padding-top:220px;
+  }
+  .footer .icon_list{
+	width:453px;
+	height:81px;
+	margin:30px auto 0;
+  }
+  .footer .icon_list div{
+	width:81px;
+	height:81px;
+	float:left;
+	margin: 0 35px; 
+  }
+  .footer .icon_list div a{
+	display:block;
+	width:81px;
+	height:81px;
+  }
+  
+  .footer .icon_list .qq{
+	background:url(../images/footer_wx.png) center no-repeat;
+  }
+  .footer .icon_list .qq{
+	background:url(../images/footer_qq.png) center no-repeat;
+  }
+  .footer .icon_list .wx{
+	position:relative;
+	background:url(../images/footer_wx.png) center no-repeat;
+  }
+  .footer .icon_list .web{
+	background:url(../images/footer_web.png) center no-repeat;
+  }
+  .footer .icon_list .wx span {
+    background: url(../images/weixin.png);
+    width: 192px;
+    height: 210px;
+	display:block;
+    position: absolute;
+    left: -55px;
+    top: -215px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    display: block;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    transform-origin: 100% 70%;
+    -webkit-transform-origin: 100% 70%;
+    transition: transform ease .3s,opacity ease .3s;
+    -webkit-transition: all ease .3s;
+}
+.footer .icon_list .wx:hover span{
+	transform: scale(1.,1);
+    -webkit-transform: scale(1,1);
+	opacity:1;
+	filter:alpha(opacity=100);
+	 -moz-opacity:1;
+	 -khtml-opacity:1;
+}
+.footer .info{
+	text-align:center;
+	color:#fff;
+	font-size:18px;
+	line-height:42px;
+	margin-top:50px;
+	letter-spacing:2px;
+}

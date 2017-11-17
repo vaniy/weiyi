@@ -1,0 +1,15 @@
+.subTitle{
+    color: white !important;
+}
+
+.subTitle:hover{
+    color: #54b74a !important
+}
+
+.subTitleBox{
+    position: fixed;
+    /* left: 500p; */
+    display: none;
+    /* right: 40%; */
+    line-height: 35px;
+}
