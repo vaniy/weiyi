@@ -1,0 +1,83 @@
+
+.btn-ttc,.btn-ttc:active,.btn-ttc:hover,.btn-ttc:disabled {background-position: center;}
+.btn-ttc {background-image: url(../images/btn_act.png);}
+.btn-ttc:active {background-image: url(../images/btn_click.png);}
+.btn-ttc:hover {background-image: url(../images/btn_hover.png);}
+.btn-ttc:disabled {background-image: url(../images/btn_disable.png);}
+.btn-right,.btn-right:active,.btn-right:hover,.btn-us,.btn-us:active,.btn-us:hover
+	{background-color: rgba(0, 0, 0, 0);outline: none;height: 72px;width: 72px;padding: 0px;margin: 0px;border: 0px solid #000;}
+.btn-right {position: relative; top: 50%; left: 80%;background-image: url(../images/btn_right.png);}
+.btn-right:active {background-image: url(../images/btn_right_active.png);}
+.btn-right:hover {background-image: url(../images/btn_right_hover.png);}
+.btn-us {background-image: url(../images/us.png);}
+.btn-us:active {background-image: url(../images/us_active.png);}
+.btn-us:hover {background-image: url(../images/us_hover.png);}
+.btn-to-l,.btn-to-l:disabled,.btn-to-l:active,.btn-to-l:hover,.btn-to-r,.btn-to-r:disabled,.btn-to-r:active,.btn-to-r:hover
+{background-color: rgba(0, 0, 0, 0);outline: none;height: 64px;width: 64px;padding: 0px;margin: 0px;border: 0px solid #000;position: absolute;top: 285px;}
+/*.btn-to-r,.btn-to-r:disabled,.btn-to-r:active {left: 408px;}*/
+.btn-to-l {background-image: url(../images/to_l.png);}
+.btn-to-l:active {background-image: url(../images/to_l_hover.png);}
+.btn-to-l:disabled {background-image: url(../images/to_l_disabled.png);}
+.btn-to-r {background-image: url(../images/to_r.png);right:40px;}
+.btn-to-r:active {background-image: url(../images/to_r_hover.png);}
+.btn-to-r:disabled {background-image: url(../images/to_r_disabled.png);}
+.btn-back {width: 64px;height: 64px;padding: 0px;border: 0px solid #fff;background-image: url(../images/backtop.png);}
+.btn-back:hover {background-image: url(../images/backtop-hover.png);}
+.banners {position: relative;overflow: auto;width: 241px;left: 109px;top: 0px;}
+.banners ul {padding: 0px;}
+.banners li {list-style: none;}
+.banners ul li {float: left;height: 634px;}
+
+
+body{overflow-x: hidden; overflow-y: scroll;}
+ .navbar-inverse{ background:#fff; border-bottom:#eee;}
+.navbar-header a.navbar-brand{outline: none; padding: 0px;}
+.navbar-header a.navbar-brand img{ max-height:70px;}
+.logotit{font-size:1.5em; color:#777;text-shadow: 1px 2px 1px #ccc;}
+nav ul.nav li a{font-size: 18px; outline: none; height: 64px; padding-top: 20px}
+
+
+.ddyyzz{height: 680px;}
+.row{padding-top: 32px;}
+.wcg{padding-top: 100px;}
+.col-md-5 h1{font-size: 48px; font-weight: 600;}
+p.cgjsp{font-size: 16px; border-top: 1px solid #7f7f7f;}
+p.cgjsp_2{font-size: 15px; margin-top: 100px; color: #7f7f7f;}
+.bjip{position: absolute; top: 0px; left: -368px; z-index: -1;}
+.bjip_2{position: absolute; top: 0px; left: 100px; z-index: -1;}
+.hrhr{background-color: gray; height: 1px; margin-top: 0px;}
+.dbnrnr{margin-bottom: 20px; margin-top: 20px;}
+.phwz{color: #848383;}
+.ytyt{width: 19px; height: 19px;}
+
+
+
+/*关于我们*/
+h1.ggyyww{text-align: center; margin-top: 100px; font-weight: bold; font-size: 30px;}
+.ggyyww_2{text-align: center; font-size: 14px;}
+.ggyyww_3{text-align: center; font-size: 14px;}
+.ggyyww_4{text-align: center; font-size: 20px; font-weight: bold;}
+.jtbws{margin-top: 50px;}
+.jtbsml{text-align: center; width:40%;}
+.gywmtp{/*width:179px; **/height:279px; margin-left: 110px;}
+.lxfszb{padding-top: 30px;border-left: 1px solid #b0b0b0;  width:60%;}
+.wmdlxfs{font-size: 26px; padding-left: 80px;}
+.slldh{padding-left: 80px; margin-top: 40px;}
+.slldh_2{padding-left: 80px; margin-top: 10px;}
+.slldhtp{width: 30px; height: 30px;}
+.slldhbt{vertical-align: middle; margin-left: 20px;}
+.slldhbt_2{margin-right: 20px;}
+.footer_2{text-align: center; padding-top: 80px;}
+.dbhw{color: #848383;}
+
+/*定制方案类别*/
+.dzfalb{position: absolute; top: 450px; width: 100%; display:none;}
+.container_2{padding-left: 0px; padding-right: 0px;}
+.glass-bg_2{position: absolute; background: url(../images/glass-bg.png); width: 170px; height: 170px; top: 0px;}
+.pull-left_2{width: 66px; height: 170px;}
+.btn_2{background-color: rgba(0, 0, 0, 0); border: 0px solid #000; height: 170px; width: 112px;}
+.pull-right_2{width: 66px; height: 170px;}
+.ui-draggable_2{cursor: url(../images/hand.gif), move; position: absolute; background: url(../images/glass.png); width: 170px; height: 170px; top: 0px; z-index: 3;}
+.btn-us_2{position: absolute; top: 30%; left: 85%;}
+.ggdd{float:left;border: 0px solid black;}
+.ggdd_2{background: url(../images/8-gd.png) center center;height: 170px;width: 112px;}

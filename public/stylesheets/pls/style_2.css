@@ -1,0 +1,185 @@
+.dnyycd{ display:none;}
+.sjyycd{ display:block;}
+
+
+
+/*20161201行业应用加二级菜单------------*/
+#li0{position:relative;}
+#li0:hover .hyyyejcd{ display:block;}
+.hyyyejcd{ display:none;position: absolute; z-index:100;width:100%; overflow:hidden;top:64px;background-color: #fff;}
+.eejjccdd{width:100%;height:40px; text-align:center; line-height:40px;}
+.eejjccdd a{ color:#666;}
+.eejjccdd a:hover{ color:#e91515;text-decoration: none;}
+
+
+
+@media (max-width:767px){
+
+
+.toptop{/*height:80px;*/}
+.container {text-align: center;}
+.container >.navbar-header{width:100%; margin:0;}
+.navbar-header a.navbar-brand{}
+.navbar-header a.navbar-brand img{ text-align:center; height:50px; margin:0 auto;}
+.nav > li {float: left;width:25%; line-height:40px;}
+.logotit{font-size:0.8em; color:#666; height:50px; overflow:hidden;}
+nav ul.nav li a {height:40px;padding-top:0;line-height: 40px;font-size: 16px;padding: 0;}
+.pull-right{float:none !important;}
+.navbar-nav{ margin:0;}
+.dzfa_1{ background:url(../images/dzfa_1.jpg) no-repeat top center  !important;}
+.dzfa_2{ background:url(../images/dzfa_2.jpg) no-repeat top center  !important;}
+.dzfa_3{ background:url(../images/dzfa_3.jpg) no-repeat top center  !important;}
+.dzfa_4{ background:url(../images/dzfa_4.jpg) no-repeat top center  !important;}
+.dzfa_5{ background:url(../images/dzfa_5.jpg) no-repeat top center  !important;}
+.dzfa_6{ background:url(../images/dzfa_6.jpg) no-repeat top center  !important;}
+.dzfa_7{ background:url(../images/dzfa_7.jpg) no-repeat top center  !important;}
+
+.ddyyzz {margin-top: -60px;height: 458px;}
+
+.wcg {padding-top:0;}
+
+.btn-group .btn + .btn{margin-left:0;}
+.pull-left_2 {display: none;}
+.btn-group{width:100%; background:#fff;}
+.btn_2 {width:25%;height: 100px;background-position: center center !important;}
+.ui-draggable_2{display: none;}
+.pull-right_2{display: none;}
+.ggdd{width:25%;}
+.ggdd_2 {width:100%;height: 100px;}
+.btn-us_2{ display:none;}
+.btn_2:hover{ background-color:#F50004 !important;}
+.bjip_2 {margin-left: -143px;left: 50%;}
+.banners {left:inherit;margin: 0 auto;}
+.bjip {left: -428px;}
+.btn-to-l {left: 0;}
+.btn-to-r {right:0; left:inherit;}
+.glass-bg_2{display: none;}
+.toptoptop{display: none;}
+
+/*关于我们*/
+.gywmsj{ margin-top:50px;}
+.gywmtp { margin-left:0;}
+.wmdlxfs {padding-left:50px;}
+.slldh {padding-left:50px;}
+.slldh_2{padding-left:50px;}/**/
+.jtbws{ margin-top:0;}
+
+
+
+
+
+
+/*ey.html-------------*/
+
+.dnyycd{ display:block;}
+.sjyycd{ display:none;}
+
+.wrapper {min-width: 100%;}
+.top {min-width: 100%;}
+.nav{height:auto;}
+.nav-inner {width: 100%;min-width:100%; text-align:center;}
+.nav a.logo{float:inherit; border-bottom:1px solid #999999;}
+.nav a.logo img{height:50px;}
+.f_r {float:inherit;overflow: hidden;}
+.nav-list h2 {line-height:40px;font-size: 18px;}
+.nav a {font-size: 18px;padding: 0 10px 0 10px;}
+.ding {height: 70px;}
+.nav-list h2 {float:inherit;}
+
+.procon1 {width:auto;margin: 0 auto; padding:0 10px;}
+.procon2 {width:100%;}
+.di span.banQ {width:100%; padding-left:10px;}
+
+
+
+
+/*20161201行业应用加二级菜单------------*/
+.hyyyejcd{top:40px;}
+
+
+}
+
+
+
+
+/*20161204--------------*/
+/*微信功能介绍--------*/
+.wxgnjsbf{width:100%; overflow:hidden;background: #f5faf7;}
+.wxgnjsbf_1{width:1024px;overflow:hidden; margin:0 auto;}
+.wxgnjsbf_1 li{width: 200px;height: 300px;float: left;text-align: center;cursor: pointer;position: relative;}
+
+/*首页底部---------*/
+#footer {height: 70px;background: #292929;}
+.di {width: 1024px;margin: 0 auto; padding: 20px 0 0;}
+.di span.banQ {width: 320px;}
+.di span {display: block;font-size: 14px;color: #9fa0a0;}
+.f_l {float: left;}
+.di a{color: #9fa0a0;;}
+.di a:hover {color: #279BA5;}
+
+
+
+
+
+.debsybn{ display:none;}
+
+@media (max-width:767px){
+
+.wxgnjsbf_1 {width:100%;}
+
+/*首页底部---------*/
+#footer {min-height: 70px; height:auto; padding: 10px 0;background: #292929;}
+.di {width:100%;margin: 0 auto; padding: 20px 0 0;}
+.di span.banQ {width:50%;}
+.di span {display: block;font-size: 14px;color: #9fa0a0;}
+.f_l {float: left;}
+.di a{color: #666;color: #9fa0a0;}
+.di a:hover {color: #279BA5;}
+
+
+/*第二版首页*/
+.other-banner { position: relative;height:auto;margin-top: 90px;}
+.other-banner .banner-wrap { display:none;}
+.other-banner .banner-wrap {
+    position: absolute;
+    top: 0;
+    left:0;
+    margin-left:0;
+    width:100%;
+}
+.debsybn{width:100%;height:150px; display:block;background:url(/debsy/index/rDpbASEUo3.jpg) no-repeat center;background-size:cover;   
+
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/debsy/index/rDpbASEUo3.jpg',  sizingMethod='scale');}
+
+
+.wrap {width:98%;}
+.platform-wrap .title-top p {width:100%;}
+.pf_blockLeft {width:100% !important;height:auto;margin-left:0px;}
+.pf_title_two { margin-top: 60px;}
+.pf_blockLeft img{width:100%;}
+.pf_block {height:auto;}
+.pf_blockTwo {    height: auto; overflow: hidden; margin-bottom:20px;}
+.Pic_two {position: relative;}
+.Pic_two img{width:100%;}
+.pf_blockRight {width:100%;height:auto;}
+.pf_blockRight img{width:100%;}
+
+.pf_serviceList {width:100%;height:auto;}
+.pf_blockLeft h3 { margin-left:10px;}
+.pf_li{ margin-left:10px;}
+.words_one {width:100%;height:auto;    position: relative;}
+.Pic_one { position:relative;}
+.Pic_one img{width:100%;}
+
+.words_two {width:100%;height:auto;position: relative; text-align:left;}
+.iconList {width:50%;height:auto; min-height:210px;}
+.caseBox {width:100%;height:auto;    margin: 0 ;}
+.caseImg {width:100%;height: auto;}
+.caseImg img {width:100%;}
+.caseWord {width:100%;}
+
+.tel-kf-share-top {bottom:150px;}
+
+
+}
+
