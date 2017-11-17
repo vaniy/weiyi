@@ -1,5 +1,5 @@
 .subTitle{
-    color: white !important;
+    color: black !important;
 }
 
 .subTitle:hover{
@@ -10,6 +10,9 @@
     position: fixed;
     /* left: 500p; */
     display: none;
+    background: #fff !important;
     /* right: 40%; */
-    line-height: 35px;
+    line-height: 35px;    
+    padding: 0 20px 20px 20px;
+    margin-left: -20px;
 }
