@@ -475,7 +475,8 @@ a:hover {
 /* line 117, ../sass/main.scss */
 .other-banner {
   position: relative;
-  height: 400px; margin-top:70px;
+  height: 400px;
+   /* margin-top:70px; */
 }
 /* line 120, ../sass/main.scss */
 .other-banner .banner-wrap {

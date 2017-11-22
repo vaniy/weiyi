@@ -152,10 +152,12 @@ a{text-decoration:none;color:#666;}
 .case-bg{
 	height:79px;
 	/* min-width:1200px; */
-	width:100%;position:relative;border-bottom:solid 1px #efefef;margin-top: 79px;}
+	width:100%;position:relative;
+	/* border-bottom:solid 1px #efefef; */
+	margin-top: 79px;}
 .case-hd{height:77px;display: flex;}
 .case-hd li{font-size:14px;line-height:77px;
-	text-align:center;cursor:pointer;padding: 0 50px;
+	text-align:center;cursor:pointer;padding: 0 50px;color: white;
 }
 .case-hd li.active{background:#fa6962;color:#fff;}
 
