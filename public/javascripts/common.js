@@ -18,3 +18,19 @@ $('.subTitle').on('click', function(){
         window.location.href = "/website"
     }
 })
+//导航栏样式函数，判断距离顶部距离
+$(window).bind("scroll", function () {
+    var navH = $(window).scrollTop();
+    var $head = $("#header");
+    var $sideTop = $("#side_top");
+    if (navH > 20) {
+        $head.addClass("active");
+        $('.logo_banner').show();
+        $sideTop.fadeIn();
+    };
+    if (navH <= 20) {
+        $head.removeClass("active");
+        $sideTop.fadeOut();
+        $('.logo_banner').hide();
+    };
+});
