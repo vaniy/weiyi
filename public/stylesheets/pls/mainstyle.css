@@ -7879,7 +7879,7 @@ a:hover {
 .pf_serviceicon {
     width: 108px;
     height: 108px;
-    background: url(../images/icon/servicel.png) repeat;
+    background: url(/img/pls/servicel.png) repeat;
     margin: 30px auto 0;
 }
 
