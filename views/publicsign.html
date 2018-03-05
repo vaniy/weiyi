@@ -9,7 +9,7 @@
     <meta name="Keywords" content="擎光信息有限公司、网站建设、APP开发、微信公众号、微信开发、微信代运营、微信小程序">
     <meta name="author" content="擎光信息有限公司">
 
-    <link href="/stylesheets/header.min.css" rel="stylesheet">        
+    <link href="/stylesheets/header.min.css" rel="stylesheet">
     <link media="all" type="text/css" rel="stylesheet" href="/stylesheets/pls/mainstyle.css">
     <link media="all" type="text/css" rel="stylesheet" href="/stylesheets/pls/scojs.css">
     <link href="/stylesheets/common.css" rel="stylesheet">
@@ -25,7 +25,7 @@
         <div class="head-nav" id="header">
             <div class="nav-cotar hf cfa">
                 <div class="logo-box fp lfp">
-                     <img class="logo_banner" src="/img/logo_1.png" style=" width: 259px; height: 50px; display: none; ">
+                    <img class="logo_banner" src="/img/logo_1.png" style=" width: 259px; height: 50px; display: none; ">
                     <p style=" width: 0; height: 0; overflow: hidden; display: block; visibility: hidden; ">擎光信息科技</p>
                 </div>
                 <div class="nav-box  fp rfp">
@@ -40,7 +40,7 @@
                     </a>
                     <a href="/case" class="item ">案例</a>
                     <a href="/price" class="item">资费</a>
-                    <a href="/join" class="item ">加盟</a>
+                    <a href="/join" class="item ">加入我们</a>
 
                     <a href="tel:021-60504342" class="item link-phone ic-linkphone">
                         <span>021-60504342</span>
@@ -140,8 +140,7 @@
                 <div class="pf_title_two">
                     <h2>
                         微信公众号
-                        <span class="pf_plus">4大</span>
-                        平台开发服务
+                        <span class="pf_plus">4大</span> 平台开发服务
                     </h2>
                 </div>
                 <div class="pf_block">
@@ -177,8 +176,7 @@
                 <div class="pf_title_two">
                     <h2>
                         微信公众平台
-                        <span class="pf_plus">7大</span>
-                        特色功能开发
+                        <span class="pf_plus">7大</span> 特色功能开发
                     </h2>
                 </div>
                 <div class="pf_blockTwo">
@@ -474,7 +472,7 @@
                                 </div>
                                 <div class="item hf ic-footer2 ">
                                     <div class="label ftp ">电话：</div>
-                                    <div class="content ftp ">021-60504342  从先生:15221879161  杨小姐:15158808506</div>
+                                    <div class="content ftp ">021-60504342 从先生:15221879161 杨小姐:15158808506</div>
                                 </div>
                                 <div class="item hf ic-footer3 ">
                                     <div class="label ftp ">QQ：</div>
@@ -495,7 +493,7 @@
                                 </div>
                                 <div class="item hf ic-footer2 ">
                                     <div class="label ftp ">电话：</div>
-                                    <div class="content ftp ">021-60504342  从先生:15221879161  杨小姐:15158808506</div>
+                                    <div class="content ftp ">021-60504342 从先生:15221879161 杨小姐:15158808506</div>
                                 </div>
                                 <div class="item hf ic-footer3 ">
                                     <div class="label ftp ">QQ：</div>
@@ -549,8 +547,10 @@
                     <div style="width:300px;margin:0 auto;padding-top: 15px; ">
                         <a target="_blank " href="#
                                                     " style="display:inline-block;text-decoration:none;height:20px;line-height:20px;
-                                                    "><img src="/img/ghs.png " style="float:left; "><p style="float:left;height:20px;line-height:20px;margin:
-                                                    0px 0px 0px 5px; color:#939393; ">沪ICP备17037423号-2</p></a>
+                                                    "><img src="/img/ghs.png " style="float:left; ">
+                            <p style="float:left;height:20px;line-height:20px;margin:
+                                                    0px 0px 0px 5px; color:#939393; ">沪ICP备17037423号-2</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -559,27 +559,26 @@
     <script type="text/javascript" src="/javascripts/jquery-3.0.0.min.js"></script>
     <!-- <script type="text/javascript" src="/javascripts/main.js"></script> -->
     <script type="text/javascript ">
-        $('.choose').on('click', function(e){
-            console.log('this', this)
-            if(this.className.indexOf('choose active') === -1){
-                var dom = $('.choose');
-                for (var index = 0; index < dom.length; index++) {
-                    dom[index].className = 'choose';
-                }
-                this.className = 'choose active';
+        $('.choose').on('click', function(e) {
+                console.log('this', this)
+                if (this.className.indexOf('choose active') === -1) {
+                    var dom = $('.choose');
+                    for (var index = 0; index < dom.length; index++) {
+                        dom[index].className = 'choose';
+                    }
+                    this.className = 'choose active';
 
-                if(this.innerText === '小程序'){
-                    $($('.cont')[0]).show();
-                    $($('.cont')[1]).hide();
+                    if (this.innerText === '小程序') {
+                        $($('.cont')[0]).show();
+                        $($('.cont')[1]).hide();
+                    } else {
+                        $($('.cont')[1]).show();
+                        $($('.cont')[0]).hide();
+                    }
                 }
-                else{
-                    $($('.cont')[1]).show();
-                    $($('.cont')[0]).hide();
-                }
-            }
-        })
-        //导航栏样式函数，判断距离顶部距离
-        $(window).bind("scroll ", function () {
+            })
+            //导航栏样式函数，判断距离顶部距离
+        $(window).bind("scroll ", function() {
             var navH = $(window).scrollTop();
             var $head = $("#header ");
             var $sideTop = $(".side-t-wrap ");
@@ -594,11 +593,13 @@
         });
 
         //返回顶部
-        $(".ic-box.t-top ").click(function () {
-            $("body,html ").animate({ scrollTop: 0 }, 600);
+        $(".ic-box.t-top ").click(function() {
+            $("body,html ").animate({
+                scrollTop: 0
+            }, 600);
         });
 
-        $(function () {
+        $(function() {
             var page = {}; //页面对象
             page.deviceType = "PC "; //设备类型 PC 电脑端, APP 移动端, IEunder9 不支持CSS3的IE浏览器(包括IE6,7,8,9)
             //设备类型判断
@@ -628,12 +629,12 @@
     <script>
         var _hmt = _hmt || [];
         (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?44da5d12a9e80899a2bb34a42b29a631";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?44da5d12a9e80899a2bb34a42b29a631";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
         })();
-        </script>
+    </script>
     <!-- <script type="text/javascript" src="/img/online"></script> -->
 </body>
 
